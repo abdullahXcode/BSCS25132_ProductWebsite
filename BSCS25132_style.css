@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Sans-serif;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1;  
+}
+.navbar{
+    background: #111;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar ul li{
+    margin: 0 70px ;
+}
+
+.navbar ul:hover{
+    animation:  duration timing-function delay iteration-count direction fill-mode;
+    box-shadow: 0px 4px 10px rgba(20, 40, 80, 0.5);
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    background-color: rgb(141, 135, 135);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.aboutus Dreamwheel{
+    color: white;
+}
+.aboutus{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    color: rgb(97, 80, 80);
+}
+.aboutus :hover{
+    color: rgb(212, 1, 1);
+}
+.CompanyName :hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+
+.aboutus p{
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.aboutus a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.ourproducts{
+    text-align: center;
+    font-weight: bolder;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.ourproducts h1{
+    margin-top: 0;
+    padding-top: 75px;
+    margin-bottom: 12px;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+}
+.ourproducts a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.ourproducts h1:hover{
+    color: red;
+}
+
+.ProductHeading :hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+
+}
+
+.productButton{
+    padding: 15px 35px;
+    padding-top: 10px;
+    margin-top: 12px;
+    background: rgb(153, 165, 170);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #b5b9c2;
+    cursor: pointer; 
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.productButton:hover{
+    transform: scale(1,1);
+    background: grey;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+.footer{
+    margin-top: auto;
+    background: rgb(5, 8, 8);
+    text-align: center;
+    padding: 70px 30px;
+    font-size: 20px ;
+    border: solid rgb(202, 246, 247);
+    border-width: 30px;
+}
+.footer p{
+    color: white;
+    margin: 8px 0 ;
+}
+
+
+
+/* PRODUCT PAGE DESIGN */
+
+
+.product1{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.product1pic{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 70vh;
+    border-radius: 30px;
+    align-items: flex-start;
+    transition: transform 0.4s ease;
+}
+.product1pic:hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+}
+.product1info{
+    margin-top: 65px;
+    width: 70vh;
+    align-items: flex-end;
+    opacity: 0.8;
+    transform: translateX(20px);
+    transition: all 1.2s ease;
+}
+.product1info:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product2{
+    display: flex;
+    margin-bottom: 40px;
+}
+.product2pic{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 70vh;
+    border-radius: 30px;
+    align-items: flex-start;
+    transition: transform 0.4s ease;
+}
+.product2pic:hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+}
+.product2info{
+    margin-top: 65px;
+    width: 70vh;
+    align-items: flex-end;
+    opacity: 0.8;
+    transform: translateX(20px);
+    transition: all 1.2s ease;
+}
+.product2info:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product3{
+    display: flex;
+    margin-bottom: 40px;
+}
+.product3pic{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 70vh;
+    border-radius: 30px;
+    align-items: flex-start;
+    transition: transform 0.4s ease;
+}
+.product3pic:hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+}
+.product3info{
+    margin-top: 65px;
+    width: 70vh;
+    align-items: flex-end;
+    opacity: 0.8;
+    transform: translateX(20px);
+    transition: all 1.2s ease;
+}
+.product3info:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product4{
+    display: flex;
+    margin-bottom: 40px;
+}
+.product4pic{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 70vh;
+    border-radius: 30px;
+    align-items: flex-start;
+    transition: transform 0.4s ease;
+}
+.product4pic:hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+}
+.product4info{
+    margin-top: 65px;
+    width: 70vh;
+    align-items: flex-end;
+    opacity: 0.8;
+    transform: translateX(20px);
+    transition: all 1.2s ease;
+}
+.product4info:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product5{
+    display: flex;
+    margin-bottom: 40px;
+}
+.product5pic{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 70vh;
+    border-radius: 30px;
+    align-items: flex-start;
+    transition: transform 0.4s ease;
+}
+.product5pic:hover{
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transform: scale(1.1);
+}
+.product5info{
+    margin-top: 65px;
+    width: 70vh;
+    align-items: flex-end;
+    opacity: 0.8;
+    transform: translateX(20px);
+    transition: all 1.2s ease;
+}
+.product5info:hover {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.productPageButton{
+    margin-top: 90px;
+    height: 50px;
+    width: 75px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    border-color: gray;
+    font-weight: bolder;
+    background-color: rgb(77, 247, 247);
+    backdrop-filter: blur(4px);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    letter-spacing: 1px;
+    box-shadow: 0px 8px 15pxr rgba(0,0,0,0.2);
+
+}
+.productPageButton:hover{
+    background-color: #92b0d3;
+    box-shadow: 0px 12px 20pxr rgba(0,0,0, 0.3);
+    transform: translate(-5px);
+}
+.product1,
+.product2,
+.product3,
+.product4,
+.product5{
+    background: rgba(169, 169, 170, 0.5);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+/* About Page CSS*/
+
+.contact-page {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: calc(100vh - 80px); 
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-page .social-links {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.contact-page .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-page .social-links a:hover {
+    transform: scale(1.05);
+    color: #0056b3;
+}
+
+.social-links a img.social-icon {
+    width: 70px;     
+    height: 70px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a img.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.social-links a span {
+    font-size: 22px;
+}
+form {
+  background: rgba(140, 138, 156, 0.85); 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 80px auto ; 
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+  color: #222;
+}
+
+form input,
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+form button {
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #357abd;
+}
+
+
+/*ChatBot Styling*/
+.mainBox{
+    text-align: center;
+    background: rgb(155, 152, 152); 
+    margin: 0px 0vh 45px 56vh;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.msgSection{
+    border-bottom: 1px solid #b4aeae;
+    border-radius: 10px;
+    overflow-y: auto;
+    width: 400px;
+    height: 400px;
+    background: #858181;
+    
+    padding: 1px solid#ddd;
+}
+.already-shown-msg{
+    background: #ececec;
+    margin: 9px ;
+    max-width: 80%;
+    padding: 12px;
+    border-radius: 17px;
+    align-self: flex-start;
+}
+.bot-msg {
+  background: #ececec;
+  margin: 9px;
+  max-width: 80%;
+  padding: 12px;
+  border-radius: 17px;
+  align-self: flex-start;
+}
+.user-message{
+    background: #93c1f1;    
+    margin: 9px ;
+    max-width: 80%;
+    padding: 12px;
+    border-radius: 17px;
+    align-self: flex-end;
+}
+.InputDiv {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid #ccc;
+  background: #a7c3e0;
+}
+
+.InputDiv input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.InputDiv input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.4);
+}
+
+.InputDiv button {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.InputDiv button:hover {
+  background: #0056b3;
+}

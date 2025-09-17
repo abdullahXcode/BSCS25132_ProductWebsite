@@ -1,4 +1,17 @@
 # BSCS25132_ProductWebsite
-This is my first website i ever created at ITU. 
-It has home page , product page contact page, it also contain animations and some good things and is looking very decent 
-it cintain chatbot which reply some query of user. 
+This is my first ITU project website built using **HTML, CSS, and JavaScript**.  
+It contains the following pages:
+
+- **Home Page** (index.html) – Introduction of the website  
+- **Product Page** – Details of available products  
+- **Contact Page** – Contact information  
+
+## Features
+- Responsive layout  
+- Custom CSS styling  
+- Interactive JavaScript features
+- Chatbot  
+
+## To view:
+Click here to open the website:
+https://abdullahxcode.github.io/BSCS25132_ProductWebsite/

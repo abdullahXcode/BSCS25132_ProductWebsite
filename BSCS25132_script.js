@@ -3,7 +3,7 @@ function greet(){
     alert("Welcome to DreamWheels");
 }
 
-// greet();
+greet();
 
 document.getElementById("year").innerText = new Date().getFullYear();
 
